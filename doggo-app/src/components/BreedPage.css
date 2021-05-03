@@ -1,0 +1,74 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #ffecb3;
+}
+
+#b2hButton {
+  margin: 5px 100% 0 15px;
+}
+
+.BPpara {
+  font-family: "Noto Serif", Georgia, serif;
+  font-weight: bold;
+  border: white solid 3px;
+  margin: 10px 95px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: beige;
+  color: #1a529e;
+  font-size: 20px;
+}
+
+.inputField {
+  border: black solid 2px;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
+  grid-gap: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  background-color: #f9ecd6;
+}
+
+.card-image {
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  background-color: #f9ecd6;
+  color: #1a529e;
+  border-radius: 0 0 1rem 1rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 300;
+  font-family: "Noto Serif", Georgia, serif;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}

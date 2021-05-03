@@ -1,12 +1,12 @@
-// Need a text input
-// handle change
-// filter breeds by input
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function BreedPage({ breeds }) {
   const [dogFilter, setDogFilter] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function handleChange(e) {
     setDogFilter(e.target.value);
@@ -14,14 +14,21 @@ function BreedPage({ breeds }) {
 
   return (
     <div>
-      <h1>You're on BreedPage!</h1>
       <Link to="/">
-        <button>Home</button>
+        <button class="button" id="b2hButton">
+          Back to Home
+        </button>
       </Link>
-
+      <p className="BPpara">
+        <strong>You're on our Breed Page!</strong> <br />
+        <br />
+        Feel free to search for a specific breed you may be interested in or
+        scroll through our list and see what catches your eye!
+      </p>
       <form>
         <input
-          placeholder="Search"
+          className="inputField"
+          placeholder="Search For Breed"
           type="text"
           name="searchString"
           required
@@ -29,8 +36,6 @@ function BreedPage({ breeds }) {
           value={dogFilter}
         />
       </form>
-
-      <h1> {dogFilter} </h1>
 
       <section className="container">
         {breeds

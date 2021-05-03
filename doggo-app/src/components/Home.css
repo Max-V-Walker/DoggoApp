@@ -1,0 +1,50 @@
+.home {
+  width: 600px;
+  margin: 15px auto;
+  border: black solid 3px;
+  background-color: white;
+  padding: 10px;
+}
+
+.puppers {
+  border: white solid 3px;
+  margin: 10px auto;
+  width: 500px;
+  height: 350px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  color: black;
+}
+
+.doggoapp {
+  border: white solid 3px;
+  margin: 0 95px;
+  margin-bottom: 20px;
+  background-color: beige;
+  color: limegreen;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: "Noto Serif", Georgia, serif;
+  font-size: 20px;
+}
+
+h4 {
+  color: #1a529e;
+  margin-bottom: -5px;
+  font-family: "Noto Serif", Georgia, serif;
+}
+#homebutton {
+  margin-top: 5px;
+}

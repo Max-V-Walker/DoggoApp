@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import "./components/BreedPage.css";
+import "./components/AboutDoggo.css";
+import "./components/Home.css";
 import Home from "./components/Home";
 import BreedPage from "./components/BreedPage";
-import SearchForm from "./components/SearchForm";
 import AboutDoggo from "./components/AboutDoggo";
-import SearchResults from "./components/SearchResults";
 import { Route } from "react-router-dom";
 
 function App() {
@@ -36,9 +37,6 @@ function App() {
         path="/breeds"
         render={() => <BreedPage breeds={breeds} />}
       />
-      <Route exact path="/searchForm" component={SearchForm} breeds={breeds} />
-      <Route exact path="/searchResults" component={SearchResults} />
-      {/* <Route exact path="/searchForm" component={SearchForm} /> */}
       <Route exact path="/" component={Home} />
       <Route
         exact
