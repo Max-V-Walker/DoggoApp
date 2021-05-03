@@ -1,4 +1,4 @@
-# DoggoApp2
+# DoggoApp
 
 A React built project to help you search and learn about different dog breeds. 
 
