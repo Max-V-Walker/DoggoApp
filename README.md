@@ -12,7 +12,8 @@ https://vast-sands-61244.herokuapp.com/
 
 ![Screen Shot 2021-04-30 at 10 49 15 PM](https://user-images.githubusercontent.com/80484823/116769223-86070780-aa08-11eb-82fb-12fb9836517a.png)
 ![Screen Shot 2021-04-30 at 10 51 05 PM](https://user-images.githubusercontent.com/80484823/116769225-87d0cb00-aa08-11eb-9a50-de0f57a8edbc.png)
-![Screen Shot 2021-04-30 at 10 52 41 PM](https://user-images.githubusercontent.com/80484823/116769228-899a8e80-aa08-11eb-96b5-f57befb59124.png)
+![Screen Shot 2021-05-02 at 11 30 18 PM](https://user-images.githubusercontent.com/80484823/116838972-66a1e300-ab9e-11eb-91e1-0001c41e1b9a.png)
+
 
 # Techonologies Used
 This project was made using HTML, CSS, JavaScript, and React.
