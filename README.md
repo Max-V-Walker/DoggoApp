@@ -29,3 +29,8 @@ Was unable to add additional photos for the breeds being requested. Will return 
 ## Stretch Goals
 * As a user I want to be able to favorite a certain breed of dog and be able to view all of my favorites on a deperate page.
 * As a user, I want to be able to access additional photos and information about the selected breed.
+
+# Sites
+* https://w3schools.com/
+* https://stackoverflow.com
+* https://google.com
